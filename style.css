@@ -1,0 +1,36 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #005A8D;
+    color: #FFFFFF;
+}
+
+.container {
+    text-align: center;
+}
+
+#countdown {
+    margin-top: 20px;
+}
+
+#countdown ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#countdown ul li {
+    margin: 0 15px;
+}
+
+#countdown ul li span {
+    font-size: 40px;
+    display: block;
+}
